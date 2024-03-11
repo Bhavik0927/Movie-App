@@ -1,0 +1,51 @@
+.TrendingContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto; /* Enable horizontal scrollbar if needed */
+  max-width: 100%;
+  padding: 0px 30px;
+  background-image: url('../assets/bgImg.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* border: 2px solid green; */
+}
+.mainCardData {
+  /* border: 2px solid yellow; */
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  margin-top: 20px;
+}
+.mainCardData h3 {
+  margin: 10px 0px 0px 10px;
+  color: #000;
+  cursor: pointer;
+}
+.mainCardData h3:hover{
+  color:grey;
+}
+.mainCardData p{
+  margin: 10px 0px 0px 10px;
+  font-weight: 500;
+  color: grey;
+}
+.Trendingcard {
+  /* border: 2px solid goldenrod; */
+  position: relative;
+  flex: 0 0 auto; /* Allow cards to shrink, but don't let them grow */
+  width: 175px; /* Set the width of each card */
+  height: 264px; /* Set the height of each card */
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.Trendingcard img {
+  width: 175px;
+  border-radius: 8px;
+}
+.percentage {
+  position: absolute;
+  bottom: -25px;
+  left: 2px;
+}

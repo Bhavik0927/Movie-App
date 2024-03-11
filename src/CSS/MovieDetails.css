@@ -1,0 +1,65 @@
+.DetailsContainer{
+    display: flex;
+    align-items: center;
+    padding: 50px 30px;
+    gap: 30px;
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.left-part{
+    width: 290px;
+    height: 506px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.26);
+}
+.left-part > img{
+    width: 290px;
+    height: 450px;
+    border-radius: 10px 10px 0px 0px;
+}
+.bottom-part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(125, 190, 192);
+    
+}
+.bottom-part > .logo{
+    width: 50px;
+    height: 50px;
+}
+.bottom-part p{
+    font-weight: bold;
+    color: #fff;
+
+}
+.right-part{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+    width: 70%;
+    height: 400px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.right-part .score{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 50%;
+}
+.trailer .playBtn{
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+}
+.score .percent{
+    font-size: 20px;
+}

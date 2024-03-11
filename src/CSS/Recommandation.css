@@ -1,0 +1,55 @@
+.Container {
+  /* border: 1px solid red; */
+  height: 300px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto; /* Enable horizontal scrollbar if needed */
+  max-width: 100%;
+  align-items: center;
+}
+.CardData {
+    /* border: 2px solid yellow; */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-top: 20px;
+  }
+.recommandCard {
+  position: relative;
+  flex: 0 0 auto; /* Allow cards to shrink, but don't let them grow */
+  width: 240px ; /* Set the width of each card */
+  height: 180px; /* Set the height of each card */
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.recommandCard .date{
+    position: absolute;
+    bottom: 0px;
+    height: 30px;
+    background-color: lightgray;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 0px 0px 10px  10px;
+    padding-left: 10px;
+}
+
+.date h3{
+  font-size: 15px;
+}
+
+.recommandCard img{
+    width: 240px ;
+    height: 180px;
+    border-radius: 8px;
+}
+.nameData{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    color: #000;
+}
+
+

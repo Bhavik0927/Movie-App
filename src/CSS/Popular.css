@@ -1,0 +1,26 @@
+.list{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    border: 1px solid red;
+    width: 170px;
+    border-radius:20px ;
+    /* padding: 10px; */
+}
+.list li{
+   cursor: pointer;
+
+}
+
+.list li:hover{
+    padding: 10px;
+    background: #f1dbdb;
+    border-radius: 20px;
+}
+.PopularContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto; /* Enable horizontal scrollbar if needed */
+  max-width: 100%;
+  padding: 0px 30px;
+}

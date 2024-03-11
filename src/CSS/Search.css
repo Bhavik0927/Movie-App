@@ -1,0 +1,37 @@
+
+.headingContainer{
+    width: 100%;
+    padding: 40px;
+    background-color: rgb(170, 170, 173);
+    line-height: 70px;
+    color: #fff;
+    /* border: 1px solid red; */
+}
+.headingContainer h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.headingContainer h2{
+    font-size: 30px;
+}
+.headingContainer input{
+    width: 90%;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 25px ;
+    padding-left: 20px;
+    font-size: 20px;
+    overflow: hidden;
+}
+.headingContainer button{
+    height: 45px;
+    width: 9%;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background:linear-gradient(to right,rgb(144, 221, 144),rgb(110, 203, 226))
+}

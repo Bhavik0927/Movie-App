@@ -1,0 +1,28 @@
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+    background-color: burlywood;
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    font-size: 19px;
+    font-weight: 400;
+    padding: 0px 20px;
+}
+.navContainer img{
+    width: 80px;
+    height: 80px;
+}
+.shows{
+    display: flex;
+    gap: 12px;
+    list-style: none;
+    cursor: pointer;
+    color: #faecec;
+}
+.shows li{
+    color: #faecec;
+}
+.shows > li:hover{
+    color: #fff;
+}
