@@ -1,4 +1,6 @@
-# React + Vite
+Creating A Movie is a came from the basic projects list but as beginer react-developer its very challenging to me....# React + Vite
+I Used React Player package for showing a trailer video in this project....
+I hope u like it...
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
